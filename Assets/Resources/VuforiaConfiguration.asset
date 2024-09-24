@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: ASlGr6n/////AAABmcwC61ATZUFknkeI3jCVFXlLhtBadA2CSgkmJ1leHV7qW/hRLhtyNyeL6qbmiZaiGBEhLcsCKCHCmmV9bcgPCsEhuBOBHJHPhgv+fvrI/VFGOLvMRu9nldPB+WmcbO0oeP8tUBno0J7NVLa+YLDWw+43f/Y46P5dNCTtkdYcnIcRsJjkstss7Z8lN9+irt4hKVDtaHjqUP1AAsgs8DVqwb/T0ZBe0jES53pWBJWAP1noHVbk2EvALuS5FyJUkAL4se47uPrNTIXhu/AKkiebQFd7hC99Ak7Tjho295VMLgumnnOTvopYPNI5NEPBg0YSV0rnEIve00qZToz4myc5cicNqAC86QrF5ppsVB7nr55/
-    ufoLicenseKey: QWVqUEVxNy8vLy8vQUFBQUtNMEhmdmt0akV0d3NTWTZ4Y2lpUm5VK0w2aE5FaHZSV2s2V1VyV3NiOWVJQlJicUVpam4rOGl0SE9JQjBrL0VkM3h5dTNPT1pldjEzbzRrUW8xR3RZRVVXOUFlRnlYaDl0S1BDV0YveEd0MnRER0JPdWFnRmVFelZQSFJsTC9rb3J4YVRJWVR5Zk0xYWxhSUdGb01sWktCMDJwRHV3ZzQrQklQRzRhQzRURUdWYXNKWjN2b0FXMlBGMllFaFBxTjkxalZyYzdzcGsrc0Z2Mi9XUk5nSXhMSlRlTk53TWhXY05JMGUxNE01YXZUTkZsTkNFRjYwS2NuZjVwNmJqaWdQeXJYMU5vNXA5KzB5SHZUVVFSYTZpR2kvSzRBNjVXZ0FwSFc2NGY0bVBJTHV2NFhtNkxjVnMxZ25JRVgxQzdOd3VmUEFQV25wSVZiZi9rZHMzN2xaeGozWW5RdW1XWXQrd2xnM0d3bEFzelo=
+    ufoLicenseKey: QVhiM0Y1Ly8vLy8vQUFBQUtPbnFIeHJFSGs1N3VrMlg4U050eVBzK2pkOFZxMDhrazlwYjBsYS9aZUIxQlV1ckZWcWt0ZllSQWpnT2tIRlY2VzdOMDRTRjNYRUhmbTF5L1BnYlB4eWdHWEF6RUNheXowc3dyNVNYa2ozdERuRjhka1FpOHRscHdkMDcrcEJEY1FjTjNJcUM1bEgwOTYzQkdZdjRsQStRb0hSQU9nRGthelp5TlY0WHVwWU9EaE05NWw5bXAzbnBDMjM5MWZBWXBFdEdiL2loTDNab3N4b25ZblhjK1JtSS9wLzRoTDIwVGhmTXR6WFJNYkpUTXZLZzJoQ0N0TEJXNEptZ0pSOUtSdStzQWM3QjVNOWFFMGVHQ1dUT1VRSUUweEpiZC9ZL2cvS29iNDhBRXdQOGFwbWR5NmRWU0FHU2psVzRZY2FEU2Zud3J1ZHhucVNmSUZiajNTUnIzM0lKVlFIaW1rL0oyOGNFeDdyekcySXg=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
@@ -24,7 +24,7 @@ MonoBehaviour:
     shareRecordingsInITunes: 0
     logLevel: 0
     version: 10.25.4
-    eulaAcceptedVersions: '{"Values":["","0.0","10.2","10.8","10.10","10.11","10.18","10.16","10.20","10.22","10.24","10.25"]}'
+    eulaAcceptedVersions: '{"Values":["","0.0","10.25","10.2","10.8","10.10","10.11","10.18","10.16","10.20","10.22","10.24"]}'
   database:
     disableModelExtraction: 0
   shaders:
