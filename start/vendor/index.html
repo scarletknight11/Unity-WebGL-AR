@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- include a-frame -->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <!-- include ar.js for aframe -->
+    <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js/aframe/build/aframe-ar.js"></script>
+</head>
+<body style='margin : 0px; overflow: hidden;'>
+
+    <!-- Add instructions at the top of the page -->
+    <div style='position: fixed; top: 10px; width:100%; text-align: center; z-index: 1; color: white;'>
+        Instructions:<br/> Point your camera at the target marker.
+    </div>    
+
+    <!-- Define your 3d scene and enable AR.js -->
+    <a-scene embedded arjs='trackingMethod: best; sourceType: webcam;'>
+
+        <!-- Declare assets for use in the scene. -->
+        <a-assets timeout="1000">
+            <!-- Declare your 3D model asset here -->
+            <a-asset-item id="3DModel-obj" src="path/to/your/model.obj"></a-asset-item>
+            <a-asset-item id="3DModel-mtl" src="path/to/your/model.mtl"></a-asset-item>
+        </a-assets>
+
+        <!-- Use an a-marker to attach 3D content to an AR marker -->
+        <a-marker preset="hiro">
+            <!-- 3D model attached to the marker -->
+            <a-obj-model 
+                src="#3DModel-obj" 
+                mtl="#3DModel-mtl" 
+                position="0 0 0" 
+                rotation="0 0 0" 
+                scale="0.1 0.1 0.1">
+            </a-obj-model>
+        </a-marker>
+
+        <!-- Static camera to render the AR scene -->
+        <a-entity camera></a-entity>
+
+    </a-scene>
+
+</body>
+</html>
