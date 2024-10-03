@@ -3,8 +3,10 @@ using Vuforia;
 
 public class SimpleBarcodeScanner : MonoBehaviour
 {
-    public TMPro.TextMeshProUGUI barcodeAsText;
+    //public TMPro.TextMeshProUGUI barcodeAsText;
+    public GameObject pages;
     BarcodeBehaviour mBarcodeBehaviour;
+
     void Start()
     {
         mBarcodeBehaviour = GetComponent<BarcodeBehaviour>();
@@ -15,11 +17,13 @@ public class SimpleBarcodeScanner : MonoBehaviour
     {
         if (mBarcodeBehaviour != null && mBarcodeBehaviour.InstanceData != null)
         {
-            barcodeAsText.text = mBarcodeBehaviour.InstanceData.Text;
+            //barcodeAsText.text = mBarcodeBehaviour.InstanceData.Text;
+            pages.SetActive(true);
         }
         else
         {
-            barcodeAsText.text = "";
+            //barcodeAsText.text = "";
+            pages.SetActive(false);
         }
     }
 }
