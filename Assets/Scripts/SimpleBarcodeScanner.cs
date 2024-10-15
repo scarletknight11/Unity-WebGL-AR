@@ -7,6 +7,7 @@ public class SimpleBarcodeScanner : MonoBehaviour
     public GameObject pages;
     BarcodeBehaviour mBarcodeBehaviour;
 
+
     void Start()
     {
         mBarcodeBehaviour = GetComponent<BarcodeBehaviour>();
@@ -19,11 +20,7 @@ public class SimpleBarcodeScanner : MonoBehaviour
         {
             //barcodeAsText.text = mBarcodeBehaviour.InstanceData.Text;
             pages.SetActive(true);
-        }
-        else
-        {
-            //barcodeAsText.text = "";
-            pages.SetActive(false);
+            mBarcodeBehaviour.enabled = true;
         }
     }
 }

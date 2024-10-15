@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="page89" size="1.000000 0.808594" />
+    <ImageTarget name="2024-lamborghini-revuelto-exterior" size="1.000000 0.562500" />
     <ImageTarget name="museum_of_science_fiction_logo" size="1.000000 1.000000" />
   </Tracking>
 </QCARConfig>
